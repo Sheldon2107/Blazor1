@@ -1,0 +1,41 @@
+*{font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;}
+body{background-color: rgb(255,252,245);margin:10px;}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    height:15%;
+}
+.text-container{display:block;}
+.container{
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+    .left-container{ border-right: 1px solid grey;width: 75%; }
+    .right-container{width:25%;}
+
+.form-container{
+    background-color: rgb(240,235,223);
+    height: 90%;
+    margin-top: 30%;
+    border: 1px dotted black;
+    border-radius: 50px;} 
+
+    .form-group{margin: 10px;}
+    .form-container h1{text-align: center;border-bottom: 1px solid black;}
+    
+.add-task-button{
+    background-color: rgb(186,189,226);
+    width: 80%;
+    height:30px;
+    margin-left: 40px;
+}
+button{
+    color: black;
+    border: 1ps solid black;
+    border-radius: 20px;}
+h1{
+    font-size: 18px;
+}
